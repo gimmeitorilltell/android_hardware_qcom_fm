@@ -588,7 +588,7 @@ public class FMStats extends Activity  {
             a =  txtbox1.getText().toString();
             try {
                  byte count = (byte) Integer.parseInt(a);
-                 Log.d(LOGTAG, "Value entered for mOnSetBlendSinrHiListener: "  count);
+                 Log.d(LOGTAG, "Value entered for mOnSetBlendSinrHiListener: " + count);
                  if((count < MIN_BLEND_SINRHI ) ||
                      (count > MAX_BLEND_SINRHI))
                      return;

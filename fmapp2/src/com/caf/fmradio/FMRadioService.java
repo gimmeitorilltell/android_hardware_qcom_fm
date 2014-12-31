@@ -1739,11 +1739,6 @@ public class FMRadioService extends Service
       {
          return(mService.get().isSSRInProgress());
       }
-
-      public boolean isSSRInProgress()
-      {
-         return(mService.get().isSSRInProgress());
-      }
    }
    private final IBinder mBinder = new ServiceStub(this);
 
