@@ -27,4 +27,3 @@ include $(LOCAL_PATH)/fmapp2/Android.mk
 #endif # Not (TARGET_USES_AOSP)
 
 LOCAL_PATH := $(LOCAL_DIR_PATH)
-include $(LOCAL_PATH)/libfm_jni/Android.mk
